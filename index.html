@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/css/libs.min.css" />
+    <title>Livraria</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="dist/images/download.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-modal-open" href="#sobre" rel="sobre"
+                >Sobre nós</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-modal-open" href="#contato" rel="contato"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="caption">
+              <h2>Bem-vindos a Livraria</h2>
+              <div class="line-dec"></div>
+              <p>Acompanhe as promoções e os produtos nas sessões abaixo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="featured" class="featured-items">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <div class="line-dec"></div>
+              <h1>Destaques</h1>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-carousel owl-theme">
+              <div class="featured-item">
+                <img src="dist/images/livro 1.jpg" alt="Item 1" />
+                <h4>É Assim que Acaba: 1</h4>
+                <h6>R$ 35,00</h6>
+                <a href="single-product.html"> Comprar </a>
+              </div>
+              <div class="featured-item">
+                <img src="dist/images/livro 2.jpg" alt="Item 2" />
+                <h4>A Biblioteca da Meia-Noite</h4>
+                <h6>R$ 29,00</h6>
+                <a href="single-product.html"> Comprar </a>
+              </div>
+              <div class="featured-item">
+                <img src="dist/images/livro 3.jpg" alt="Item 3" />
+                <h4>Hábitos atômicos</h4>
+                <h6>R$ 40,00</h6>
+                <a href="single-product.html"> Comprar </a>
+              </div>
+              <div class="featured-item">
+                <img src="dist/images/livro 4.jpg" alt="Item 4" />
+                <h4>Atitude mental positiva</h4>
+                <h6>R$ 50,00</h6>
+                <a href="single-product.html"> Comprar </a>
+              </div>
+              <div class="featured-item">
+                <img src="dist/images/livro 5.jpg" alt="Item 5" />
+                <h4>Todas as suas (im)perfeições</h4>
+                <h6>R$ 29,00</h6>
+                <a href="single-product.html"> Comprar </a>
+              </div>
+              <div class="featured-item">
+                <img src="dist/images/livro 6.jpg" alt="Item 6" />
+                <h4>Todo esse tempo</h4>
+                <h6>R$ 20,00</h6>
+                <a href="single-product.html"> Comprar </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="subscribe-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <div class="line-dec"></div>
+              <h1>Receba novidades</h1>
+            </div>
+          </div>
+          <div class="col-md-8 offset-md-2">
+            <div class="main-content">
+              <p>
+                Insira seus dados abaixo para receber informações atualizadas de
+                nossos produtos
+              </p>
+              <div class="container">
+                <form id="subscribe" class="form" action="" method="get">
+                  <div class="row">
+                    <div class="col-md-7">
+                      <fieldset>
+                        <input
+                          name="email"
+                          type="text"
+                          class="form-control"
+                          id="email"
+                          value=""
+                          placeholder="Seu e-mail..."
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-5">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">
+                          Inscreva-se
+                        </button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="logo">
+              <img src="dist/images/download.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li>
+                  <a href="#sobre" rel="sobre" class="nav-modal-open">Sobre</a>
+                </li>
+                <li>
+                  <a href="#contato" rel="contato" class="nav-modal-open"
+                    >Contato</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="social-icons">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright-text">
+              <p>Livraria &copy; Todos os direitos reservados</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modelId"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modelTitleId"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contato" class="visually-hidden">
+      <form action="post" class="form">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            title="Insira seu nome completo"
+            class="form-control"
+            placeholder="Digite seu nome"
+            aria-describedby="helpNome"
+          />
+          <small id="helpNome" class="text-muted">
+            Digite um nome válido
+          </small>
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Digite seu e-mail"
+            aria-describedby="helpEmail"
+          />
+          <small id="helpEmail" class="text-muted">
+            Digite um e-mail válido
+          </small>
+        </div>
+
+        <div class="mb-3">
+          <label for="date" class="form-label">Data</label>
+          <input
+            type="text"
+            name="date"
+            id="date"
+            class="form-control"
+            placeholder="Selecione sua data de nascimento"
+            aria-describedby="helpDate"
+          />
+          <small id="helpDate" class="text-muted">
+            Digite uma data válida
+          </small>
+        </div>
+
+        <div class="mb-3">
+          <label for="cep" class="form-label">CEP</label>
+          <input
+            type="text"
+            name="cep"
+            id="cep"
+            class="form-control"
+            placeholder="Digite seu cep"
+            aria-describedby="helpCEP"
+          />
+          <small id="helpCEP" class="text-muted">
+            Digite um tempo válido
+          </small>
+        </div>
+
+        <div class="mb-3">
+          <label for="phone" class="form-label">Celular</label>
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            class="form-control"
+            placeholder="Digite seu telefone"
+            aria-describedby="helpCelular"
+            required
+          />
+          <small id="helpCelular" class="text-muted">
+            Digite um telefone válido
+          </small>
+        </div>
+
+        <div class="mb-3">
+          <label for="cpf" class="form-label">CPF</label>
+          <input
+            type="text"
+            name="cpf"
+            id="cpf"
+            class="form-control"
+            placeholder="Digite seu cpf"
+            aria-describedby="helpCPF"
+            required
+          />
+          <small id="helpCPF" class="text-muted">
+            Digite um celular válido
+          </small>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+
+    <div id="sobre" class="visually-hidden">
+      <div id="accordion" class="sanfona">
+        <p>
+          Somos uma pequena equipe trabalhando para manter viva o hábito da
+          leitura. Em nossa livaria você encontra os melhores livros pelas
+          melhores ofertas!
+        </p>
+      </div>
+    </div>
+
+    <!-- Bibliotecas -->
+    <script src="./dist/js/libs.min.js"></script>
+  </body>
+</html>
