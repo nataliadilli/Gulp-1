@@ -9,8 +9,6 @@ const stripcsscoment = require('gulp-strip-css-comments')
 const uglify = require("gulp-uglify-es").default;
 
 
-
-
 function tarefascss(cb) {
 
     return g.src(['./node_modules/bootstrap/dist/css/bootstrap.css',
@@ -62,3 +60,4 @@ function tarefasimage(cb) {
 exports.styles = tarefascss
 exports.scripts = tarefasjs
 exports.images = tarefasimage
+exports.default = tarefasjs
